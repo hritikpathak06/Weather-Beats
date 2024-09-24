@@ -33,19 +33,19 @@ function getSongRecommendation(weatherCondition) {
   let songUrl;
   switch (weatherCondition) {
     case "Clear":
-      songUrl = "http://127.0.0.1:5500/assets/baarish.mp3";
+      songUrl = "https://weather-beats-sooty.vercel.app/assets/baarish.mp3";
       break;
     case "Rain":
-      songUrl = "http://127.0.0.1:5500/assets/baarish.mp3";
+      songUrl = "https://weather-beats-sooty.vercel.app/assets/baarish.mp3";
       break;
     case "Clouds":
-      songUrl = "http://127.0.0.1:5500/assets/tumhiho.mp3";
+      songUrl = "https://weather-beats-sooty.vercel.app/assets/tumhiho.mp3";
       break;
     case "Snow":
-      songUrl = "http://127.0.0.1:5500/assets/tumhiho.mp3";
+      songUrl = "https://weather-beats-sooty.vercel.app/assets/tumhiho.mp3";
       break;
     default:
-      songUrl = "http://127.0.0.1:5500/assets/tumhiho.mp3";
+      songUrl = "https://weather-beats-sooty.vercel.app/assets/tumhiho.mp3";
   }
   return songUrl;
 }
